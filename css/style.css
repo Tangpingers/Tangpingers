@@ -1,3 +1,4 @@
+/* Website template by freewebsitetemplates.com */
 body {
 	background: #0b080c;
 	color: #ffffff;
@@ -399,12 +400,25 @@ p a:hover {
 	margin: 0 0 0 45px;
 	text-indent: -99999px;
 }
-
+#footer div#connect a#facebook {
+	background: url(../images/icons.png) no-repeat 0 0;
+	margin: 0;
+	width: 25px;
+}
 #footer div#connect a#twitter {
 	background: url(../images/icons.png) no-repeat 0 -35px;
 	width: 36px;
 }
-
+#footer div#connect a#googleplus {
+	background: url(../images/icons.png) no-repeat 0 -95px;
+	width: 25px;
+}
+#footer div#connect a#facebook:hover {
+	background: url(../images/icons.png) no-repeat -25px 0;
+}
 #footer div#connect a#twitter:hover {
 	background: url(../images/icons.png) no-repeat 0 -60px;
+}
+#footer div#connect a#googleplus:hover {
+	background: url(../images/icons.png) no-repeat -25px -95px;
 }
